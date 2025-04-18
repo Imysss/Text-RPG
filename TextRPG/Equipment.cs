@@ -99,30 +99,5 @@ namespace TextRPG
             Console.WriteLine($"- {idx} {name}\t| {status}");
 
         }
-
-        /*
-        public void ShowInventroyEquipmentInfo(bool showIdx, int num = 0)
-        {
-            string type = (Data.Type == EquipmentType.Armor ? "방어력" : "공격력");
-            string state = (IsEquipped ? "(E)" : "");
-            string idx = (showIdx ? num.ToString() : "");
-            Console.WriteLine($"- {idx} {state}{Data.Name,-15}\t| {type} +{Data.AddStatus}\t| {Data.Description}");
-        }
-
-        public void ShowShopEquipmentInfo(bool showIdx, int num = 0)
-        {
-            string type = (Data.Type == EquipmentType.Armor ? "방어력" : "공격력");
-            string state = (IsPurchased ? "구매 완료" : $"{Data.Price}G");
-            string idx = (showIdx ? num.ToString() : "");
-            Console.WriteLine($"- {idx} {Data.Name,-15}\t| {type} +{Data.AddStatus}\t| {Data.Description,-20}\t| {state}");
-        }
-
-        public void ShowSaleEquipmentInfo(bool showIdx, int num = 0)
-        {
-            string type = (Data.Type == EquipmentType.Armor ? "방어력" : "공격력");
-            string idx = (showIdx ? num.ToString() : "");
-            Console.WriteLine($"- {idx} {Data.Name,-15}\t| {type} +{Data.AddStatus}\t| {Data.Description,-20}\t| {Data.Price}G");
-        }
-        */
     }
 }
